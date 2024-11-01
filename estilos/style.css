@@ -1,0 +1,22 @@
+main h1 {
+  text-align: center;
+}
+main .seccion-productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
+main .seccion-productos .producto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 15px;
+  border-radius: 30px;
+}
+main .seccion-productos .producto .producto__imagen {
+  width: 50%;
+}
+main .seccion-productos .producto .producto__descripcion {
+  text-align: justify;
+}/*# sourceMappingURL=style.css.map */
